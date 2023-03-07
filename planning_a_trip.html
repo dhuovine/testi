@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>p l a n n i n g__a__t r i p</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+   <script
+   src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+   integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
+   crossorigin="anonymous"></script>
+   <script src="./bootstrap/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Snippet&display=swap" rel="stylesheet">
+
+    <link rel="js_file" href="patagonia.js">
+</head>
+<body>
+    
+
+  
+        <!--säiliö / responsiivinen toteutus-->
+
+        <div class="container-fluid" style="height:100vh">
+
+    
+          <!--1. rivi / otsikkopalkki-->
+
+          <div class="row">
+          
+          <!--PG logo-->
+
+              <div class="col-sm-9 bg-white">
+                  <br>
+                  <br>
+                  <a id="pg" href="index.html">PG</a>
+                  <br>
+                  
+              </div>
+          
+          <!--EN / ES-->
+
+              <div class="col-sm-1 bg-white">
+                  <br>
+                  <br>
+                  <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">E N</button>
+                  <div class="dropdown-menu">
+                    <a id="kieli" class="dropdown-item" href="testi.html">E S</a>
+                      </div>
+                  </div>
+      
+         <!--valikko-->
+
+     <div class="col-sm-2 bg-white">
+      <br>
+      <br>
+      <nav class="navbar">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+        
+            <li style="padding: 20px"class="nav-item">
+              <a style="color:rgb(11, 38, 59)"id="facts" class="nav-link" href="index.html">FRONTPAGE</a>
+            </li>
+              <li style="padding: 20px" ="nav-item">
+                  <a style="color:rgb(11, 38, 59)"id="contact" class="nav-link" href="contact_info.html">CONTACT INFORMATION</a>
+                </li>
+                
+                <li style="padding: 20px"class="nav-item">
+                  <a style="color:rgb(11, 38, 59)"id="places" class="nav-link" href="places_to_go.html">PLACES TO GO</a>
+                </li>
+                <li style="padding: 20px"class="nav-item">
+                  <a style="color:rgb(11, 38, 59)"id="things" class="nav-link" href="things_to_do.html">THINGS TO DO</a>
+                </li>
+                <li style="padding: 20px"class="nav-item">
+                  <a style="color:rgb(11, 38, 59)"id="planning" class="nav-link" href="source.html">projektin lähteet</a>
+                </li>
+                
+          </ul>
+        </div>
+        </nav>    
+        </div>
+
+  <!--tekstiosio-->
+
+    <div class="row h-100">
+        <div class="col-sm-6">
+            <img src="./photos/rodrigo-kugnharski-Pu7TPzQSLGE-unsplash.jpg" class="img-thumbnail" alt="Turquoise seawater, waves and rocks">
+        </div>
+        <div class="col-sm-5">
+            <h1>PLANNING A TRIP</h1>
+
+            <p>There are multiple ways to get to Patagonia, from all over the world. The closest you will get by plane is to get a 
+            flight that arrives to Ushuaia International airport.</p>
+            <br>
+            <p>From there it is very easy to navigate around Patagonia region. There are also very good public transportation options by bus and you 
+            will also get there by boat or by car if you wish. </p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet corporis qui nesciunt eum deleniti excepturi.
+            Assumenda nisi porro mollitia, possimus laboriosam distinctio voluptatum consequatur. Maxime libero maiores consectetur at ut!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, deserunt ut aperiam cupiditate quisquam exercitationem
+            ullam at, accusantium veritatis a quidem! Esse in laboriosam asperiores sed dolorem porro ratione expedita?</p>
+            <br>
+            <br>
+            <strong>Please find more information below.</strong>
+
+
+            <!--alaotsikkovalikko / collapse-->
+
+            <div class="d-grid">
+                <div id="accordion">
+
+                    <div class="card">
+                      <div class="card bg-info border-white">
+                        <a style="background-color:#C9F7FD" class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                          HOW TO GET TO PATAGONIA REGION
+                        </a>
+                      </div>
+                      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body">
+
+                            <br>
+                            <h5>By Plane</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptas iure nesciunt
+                            odio dolor qui facere. Eum molestiae tempora doloremque odit sed officia mollitia, perspiciatis vero, repellendus voluptatum facere placeat!</p>
+                            <br>
+
+                            <h5>By Boat</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur eius maxime incidunt ducimus iure repudiandae beatae,
+                            accusantium veniam aspernatur similique officiis voluptate nobis adipisci dolore vitae neque possimus eos sit!</p>
+                            <br>
+
+                            <h5>By Car</h5>
+                            <p>Lor em ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores, recusandae nulla quis voluptate
+                            consectetur nostrum amet iusto et, facilis error dolores nesciunt eius dignissimos eligendi a neque debitis earum.</p>
+                            <br>
+
+                            <h5>By Bus</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, culpa amet? Nulla et, temporibus quasi neque nam
+                            iste quam asperiores assumenda, sequi ab voluptatem recusandae? Itaque porro reiciendis similique libero?</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card bg-info border-white">
+                          <a style="background-color:#C9F7FD"class="btn" data-bs-toggle="collapse" href="#collapseTwo">
+                            WHERE TO STAY
+                          </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse show" data-bs-parent="#accordion">
+                          <div class="card-body">
+                            
+                            <br>
+                            <h5>AirBnB</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet praesentium ipsam quam maxime autem. Voluptate
+                sed similique quidem. Quia odit quaerat dolor ipsum beatae. Iste rerum id amet expedita commodi!</p>
+                <br>
+
+                <h5>B&B</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo fuga laboriosam debitis sunt quos tenetur
+                quidem, tempora quasi illum vel eius, incidunt, architecto voluptas eos? Ex reprehenderit corporis delectus!</p>
+                <br>
+
+                <h5>Hotel</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ad reiciendis quasi ullam quos voluptates nihil,
+                reprehenderit sed beatae deleniti voluptate aliquid doloremque aut voluptatibus, nulla amet labore, quia commodi?</p>
+                <br>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card bg-info border-white">
+                          <a style="background-color:#C9F7FD" class="btn" data-bs-toggle="collapse" href="#collapseThree">
+                            GETTING AROUND
+                          </a>
+                        </div>
+                        <div id="collapseThree" class="collapse show" data-bs-parent="#accordion">
+                          <div class="card-body">
+
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla voluptate expedita reprehenderit exercitationem, 
+                                quisquam unde harum maiores aliquid possimus illo quibusdam aperiam quia blanditiis corrupti necessitatibus facere
+                                repudiandae cupiditate facilis?</p>
+                                <br>
+
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aliquam aut eius consequuntur quisquam
+                                doloribus labore maxime ex ducimus laudantium. Vero nobis excepturi placeat? Eveniet nemo fugit dolores blanditiis atque?</p>
+                                <br>
+
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa excepturi tenetur, nam libero hic temporibus deleniti
+                                minus distinctio? Nisi hic temporibus aliquam nostrum minima illum neque sunt obcaecati praesentium accusantium?</p>
+                                <br>
+
+                          </div>
+                        </div>
+                      </div>
+</body>
+</html>
